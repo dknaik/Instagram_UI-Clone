@@ -1,0 +1,107 @@
+ body{
+          background-color: rgb(250, 250, 250);
+      }
+
+        .logo-image{
+          max-width: 130px;
+
+        }
+        .top-bar-photo{
+            width:1.5em;
+            height: 1.5em;
+            margin-top: 1px;
+            margin-left: 1px;
+            position: relative;
+        }
+
+        .story-prof-photo{
+  width:55px;
+            height:55px;
+            margin-top: 1px;
+            margin-left: 1px;
+            position: relative;
+        }
+        .border-round{
+            
+            border-radius: 50%;
+            background-color: #fff;
+            border: 2px solid #F1413F;
+            width:30px;
+            height: 30px;
+            align-items: center;
+            justify-content: center;
+            justify-items: center;
+            text-align: center;
+
+
+        }
+
+        .story-prof-border-round{
+              border-radius: 50%;
+            background-color: #fff;
+            border: 2px solid #F1413F;
+            width:61px;
+            height:61px;
+            /* align-items: center; */
+            /* justify-content: center; */
+            /* justify-items: center; */
+            /* text-align: center; */
+        }
+
+        .post-prof-photo{
+              width:46px;
+            height: 46px;
+            margin-top: 1px;
+            margin-left: 1px;
+            position: relative;
+        }
+        .side-prof-photo{
+              width:54px;
+            height: 54px;
+            /* margin-top: 1px;
+            margin-left: 1px; */
+            position: relative;
+        }
+
+        .no-border {
+    border: 0;
+    box-shadow: none;
+        }
+        .btn-change:hover,.btn-change:focus{
+color: white;
+font-weight: bold;
+        }
+
+       
+        .prof-info-username{
+            display: block;
+            font-weight: 700;
+
+        }
+        .prof-info-name{
+        font-size: 12px;
+        }
+
+        .suggest-prof-photo{
+               width:43px;
+            height: 43px;
+            /* margin-top: 1px;
+            margin-left: 1px; */
+            position: relative;
+        }
+ .bt-clas-sec{
+     border:none;
+     top:0;
+     right:0;
+     background-color: transparent;
+ }
+       .bt-clas-sec:hover,.bt-clas-sec:focus{
+color: white;
+font-weight: 500;
+        }
+        div.stick{
+             /* position: -webkit-sticky; */
+            position: sticky;
+            top:0;
+            z-index: 1;
+        }
